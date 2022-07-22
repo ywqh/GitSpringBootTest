@@ -14,6 +14,7 @@ public class GitSpringBootTestApplication {
         ConfigurableApplicationContext run = SpringApplication.run(GitSpringBootTestApplication.class, args);
         ConfigurableEnvironment environment = run.getEnvironment();
         System.out.println(environment.getSystemEnvironment());
+        System.out.println("已被修改");
     }
 
 }
